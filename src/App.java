@@ -118,10 +118,6 @@ public class App {
 
 public static void main(String[] args) {
         
-        System.out.println("\n=====================================================");
-        System.out.println("        TESTES DE DESEMPENHO E COMPLEXIDADE          ");
-        System.out.println("=====================================================\n");
-        
         System.out.println("--- Algoritmo 1 (Teste Grande) - O(N) Linear ---");
         System.out.printf("%15s | %15s | %15s%n", "TAMANHO (N)", "OPERACOES", "TEMPO");
         System.out.println("-----------------------------------------------------");
@@ -168,6 +164,5 @@ public static void main(String[] args) {
             long fim = System.nanoTime();
             System.out.printf("%,15d | %,15d | %,12.2f ms%n", n, operacoes, (fim - inicio) * nanoToMilli);
         }
-        System.out.println("\n=====================================================\n");
     }
 }
